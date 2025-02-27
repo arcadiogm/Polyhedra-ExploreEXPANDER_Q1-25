@@ -12,3 +12,11 @@ Oracles provide accurate and real-time: price feeds for assets, interest rates a
 
 ## Building zkML with GKR Protocol
 
+
+1 - zkML Model
+
+2 - Expander GKR Prover
+
+3 - ML Model to ZK Circuit
+
+
