@@ -2,7 +2,7 @@
 
 ## Defi Lending and Borrowing
 
-Decentralized lending/borrowing is implemented through Smart Contracts that let users LEND or BORROW digital assets at fixed or variable interest rates.
+> Decentralized lending/borrowing is implemented through Smart Contracts that let users LEND or BORROW digital assets at fixed or variable interest rates.
 
 ### ORACLEs Integration:
 
