@@ -1,0 +1,17 @@
+[package]
+name = "circuit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arith = { path = "../arith" }
+config = { path = "../config" }
+gkr_field_config = { path = "../config/gkr_field_config" }
+mpi_config = { path = "../config/mpi_config" }
+transcript = { path = "../transcript" }
+
+ark-std.workspace = true
+ethnum.workspace = true
+log.workspace = true
+rand.workspace = true
+thiserror.workspace = true

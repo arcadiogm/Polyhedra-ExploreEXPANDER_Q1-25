@@ -1,0 +1,18 @@
+[package]
+name = "transcript"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arith = { path = "../arith" }
+field_hashers = { path = "../arith/field_hashers" }
+mpi_config = { path = "../config/mpi_config" }
+
+sha2.workspace = true
+tiny-keccak.workspace = true
+
+[dev-dependencies]
+mersenne31 = { path = "../arith/mersenne31/" }
+
+[features]
+recursion = []

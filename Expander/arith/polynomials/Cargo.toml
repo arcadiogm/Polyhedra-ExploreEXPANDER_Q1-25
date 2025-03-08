@@ -1,0 +1,18 @@
+[package]
+name = "polynomials"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arith = { path = "../" }
+gkr_field_config = { path = "../../config/gkr_field_config" }
+mpi_config = { path = "../../config/mpi_config" }
+
+ark-std.workspace = true
+criterion.workspace = true
+halo2curves.workspace = true
+
+[[bench]]
+name = "mle_eval"
+harness = false
+
