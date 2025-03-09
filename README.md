@@ -20,7 +20,7 @@ Oracles provide accurate and real-time: price feeds for assets, interest rates a
 
 . Use Expander PROVER to generate and verify proofs.
 
-
+![](./process_ExpanderCircuit.jpg)
 
 ### Process workflow – Detailed steps
 #### Pre-Processing stage
