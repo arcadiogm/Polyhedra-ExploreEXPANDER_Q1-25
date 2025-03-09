@@ -10,13 +10,24 @@ Oracles serve as the data bridges for DeFi applications, enabling Smart Contract
 
 Oracles provide accurate and real-time: price feeds for assets, interest rates and collateral values, among others.
 
-## Building zkML with GKR Protocol
+### Process workflow – Detailed steps
+#### Pre-Processing stage
 
+0 . Synthetic Data generator
 
-1 - zkML Model
+1 . ML model -> Find and Train an ML model PyTorch
 
-2 - Expander GKR Prover
+2 . Export the ML model to ONNX - Open Neural Network Exchange
 
-3 - ML Model to ZK Circuit
+3 . Convert to ZK Circuit -> Use ECC - Expander Compiler Collection
+
+#### Runtime stage
+
+4 . ZK cir	cuit – Expander Prover -> Generate a circuit with a proof a prediction
+
+5 . Smart contract to validate on-chain
+
+6 . Proof storage EXPchain
+
 
 
