@@ -2,17 +2,15 @@
 
 
 
-## Defi Lending and Borrowing
+## DeFi Lending and Borrowing and ORACLEs Integration
 
 > Decentralized lending/borrowing is implemented through Smart Contracts that let users LEND or BORROW digital assets at fixed or variable interest rates.
 
-### ORACLEs Integration:
+> Oracles serve as the data bridges for DeFi applications, enabling Smart Contracts to interact with external data sources, and they provide this information by fetching data from multiple trusted sources and delivering it to the blockchain. Oracles provide accurate and real-time: price feeds for assets, interest rates and collateral values, among others.
 
-Oracles serve as the data bridges for DeFi applications, enabling Smart Contracts to interact with external data sources, and they provide this information by fetching data from multiple trusted sources and delivering it to the blockchain.
+![](./img_DeFi-Oracle.jpg)
 
-Oracles provide accurate and real-time: price feeds for assets, interest rates and collateral values, among others.
-
-## Typical Workflow
+## EXPANDER Typical Workflow
 
 . Implement the circuit in RUST circuit frontend language.
 
@@ -20,7 +18,7 @@ Oracles provide accurate and real-time: price feeds for assets, interest rates a
 
 . Use Expander PROVER to generate and verify proofs.
 
-![](./process_ExpanderCircuit.jpg)
+![](./img_process_ExpanderCircuit.jpg)
 
 ### Process workflow – Detailed steps
 #### Pre-Processing stage
