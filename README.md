@@ -1,5 +1,7 @@
 # Building zkML with GKR Protocol
 
+
+
 ## Defi Lending and Borrowing
 
 > Decentralized lending/borrowing is implemented through Smart Contracts that let users LEND or BORROW digital assets at fixed or variable interest rates.
@@ -9,6 +11,14 @@
 Oracles serve as the data bridges for DeFi applications, enabling Smart Contracts to interact with external data sources, and they provide this information by fetching data from multiple trusted sources and delivering it to the blockchain.
 
 Oracles provide accurate and real-time: price feeds for assets, interest rates and collateral values, among others.
+
+## Typical Workflow
+
+. Implement the circuit in RUST circuit frontend language.
+
+. Use ExpanderCompilerCollection - ECC to compiler the circuit into layered circuit.
+
+. Use Expander PROVER to generate and verify proofs.
 
 ### Process workflow – Detailed steps
 #### Pre-Processing stage
@@ -23,7 +33,7 @@ Oracles provide accurate and real-time: price feeds for assets, interest rates a
 
 #### Runtime stage
 
-4 . ZK cir	cuit – Expander Prover -> Generate a circuit with a proof a prediction
+4 . ZK circuit – Expander Prover -> Generate a circuit with a proof a prediction
 
 5 . Smart contract to validate on-chain
 
